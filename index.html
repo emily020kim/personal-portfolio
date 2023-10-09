@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+    <title>Emily Kim</title>
+</head>
+<body>
+    
+    <header>
+        <div id="particles"></div>
+        <div class="info-text">
+            <h1>Emily Kim</h1>
+            <h3>Fullstack Developer</h3>
+            <a href="#about" class="scroll"><i class='bx bxs-down-arrow'></i></a>
+        </div>
+    </header>
+
+    <section id="about">
+        <div class="header">
+            <h1>About Me</h1>
+            <a href="assets/Emily Kim Resume.pdf" target="_blank">Resume</a>
+        </div>
+
+        <div class="card">
+            <img src="assets/EK.png" alt="">
+            <div class="info">
+                <h1>Nice to meet you!</h1>
+                <p>My name is Emily, a fullstack developer located in the Bay Area. I love bringing ideas to life through
+                    code and aspire to take part in creating impactful applications and features.<br>
+                    <br>
+                    Frontend: HTML5, CSS, Javascript, React, Netlify, Vite, Npm <br>
+                    Backend: Node.js, SQL, PostgreSQL, Express.js, Javascript, RESTful APIs, HTTP, Postman
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section id="features">
+        <div class="header">
+            <h1>Projects</h1>
+            <a href="https://github.com/emily020kim">See More</a>
+        </div>
+        <div class="feature-cards">
+            <div class="card">
+                <div class="info">
+                    <img src="assets/currencyConverter.png" alt="">
+                    <h1>Currency Converter</h1>
+                    <p>Are you a frequent international traveler? This application was created
+                        using HTML, CSS, and Javascript to convert a country's currency to any other 
+                        country's currency. Feel free to check out the deployed application and code below!
+                    </p>
+                    <a href="https://transcendent-macaron-08ea0a.netlify.app">Site</a>
+                    <a href="https://github.com/emily020kim/currencyConverter">Code</a>
+                </div>
+            </div>
+            <div class="card">
+                <div class="info">
+                    <img src="assets/coming.jpg" alt="">
+                    <h1>Web Watchers</h1>
+                    <p>A website that reviews...other websites! Ever find a cool website that you want 
+                        to share with others? Well, Web Watchers does exactly that. Created using the PERN stack
+                        along with Tailwind to create a seamless UI. For now, take a sneak peek at the code being written!
+                    </p>
+                    <a href="https://github.com/WebApp-Reviewer/ReviewerBackEnd">Code</a>
+                </div>
+            </div>
+            <div class="card">
+                <div class="info">
+                    <img src="assets/spotify-clone.png" alt="">
+                    <h1>Spotify Clone</h1>
+                    <p>As an avid Spotify user, I wanted to create the styling of one of my favorite apps.
+                        Spotify's "Today's Top Hits" landing page was created using HTML and CSS.
+                        Feel free to check out the code and deployed page down below!
+                    </p>
+                    <a href="https://candid-figolla-67c5e1.netlify.app/">Site</a>
+                    <a href="https://github.com/emily020kim/spotify-clone">Code</a>
+                </div>
+            </div>
+            <div class="card">
+                <div class="info">
+                    <img src="assets/todo-list.png" alt="">
+                    <h1>ToDo List</h1>
+                    <p>Need an application to keep track of your daily tasks? Created with HTML, CSS, and Javascript, this 
+                        application gives you the ability to add, edit, and delete tasks to a list.
+                        Feel free to check out the code and deployed page down below!
+                    </p>
+                    <a href="https://endearing-speculoos-7bfce5.netlify.app/">Site</a>
+                    <a href="https://github.com/emily020kim/todo-list">Code</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="header">
+            <h1>Contact Me</h1>
+            <!--figure out how to send email-->
+            <button onClick="openEmail()">Send Email</button>
+        </div>
+
+        <div class="card">
+            <img src="assets/phone.jpg" alt="">
+            <div class="info">
+                <h1>Get in Touch!</h1>
+                <p>Phone: (669) 294-7886<br>
+                Email: emily020kim@gmail.com<br>
+                LinkedIn: www.linkedin.com/in/emily-kim02<br>
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <button class="scroll-top" onclick="scrollToTop()">
+        <i class='bx bxs-up-arrow'></i>
+    </button>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/particles.js/2.0.0/particles.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
