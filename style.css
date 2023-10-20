@@ -270,4 +270,14 @@ header .info-text .scroll::before {
         max-width: 150px;
         max-height: 150px;
     }
+
+    #contact .card {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #about .card img {
+        max-width: 150px;
+        max-height: 150px;
+    }
 }
